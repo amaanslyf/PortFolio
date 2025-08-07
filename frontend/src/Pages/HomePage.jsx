@@ -36,7 +36,7 @@ const Home = () => {
     { name: 'Python', icon: <SiPython />, color: '#3776ab' },
     { name: 'TypeScript', icon: <SiTypescript />, color: '#007acc' },
     { name: 'Next.js', icon: <SiNextdotjs />, color: '#000' },
-    { name: 'Visual Studio Code', icon: <VscCode />, color: '#007acc' },
+    { name: 'VS Code', icon: <VscCode />, color: '#007acc' },
     { name: 'AWS', icon: <SiAmazonwebservices />, color: '#ff9900' },
     { name: 'Docker', icon: <SiDocker />, color: '#2496ed' },
     { name: 'Git', icon: <SiGit />, color: '#f05032' },
