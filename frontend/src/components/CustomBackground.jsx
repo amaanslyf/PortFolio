@@ -10,7 +10,7 @@ const CustomBackground = ({ children }) => {
       <div className="fixed inset-0 overflow-hidden">
         {/* Large emerald orb */}
         <div 
-          className="absolute w-96 h-96 bg-emerald-500 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-gentle-float"
+          className="absolute w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-15 animate-gentle-float"
           style={{
             top: '15%',
             left: '10%',

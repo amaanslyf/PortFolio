@@ -21,15 +21,15 @@ const Header = () => {
     <header className="fixed w-full top-0 z-50 backdrop-blur-lg bg-black bg-opacity-30 border-b border-white border-opacity-10">
       <div className="w-full px-6 lg:px-12">
         <div className="flex justify-between items-center py-6">
-          
+
           {/* Logo - Link to Home */}
           <Link to="/" className="text-3xl font-bold">
-            <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
               Abdulshakkur
             </span>
             <span className="text-white ml-1">Shaikh</span>
           </Link>
-          
+
           {/* Desktop Navigation - Using Link instead of buttons */}
           <nav className="hidden lg:flex space-x-4">
             {navigationButtons.map((item) => (
@@ -39,7 +39,7 @@ const Header = () => {
                 className={`
                   px-4 py-2 rounded-md font-bold text-base transition-all duration-300 transform hover:scale-105 relative overflow-hidden justify-content-center
                   ${isActivePath(item.path)
-                    ? 'bg-gradient-to-r from-emerald-500 to-cyan-500 text-white shadow-lg' 
+                    ? 'bg-gradient-to-r from-emerald-500 to-cyan-500 text-white shadow-lg'
                     : 'text-white hover:text-emerald-400 bg-white bg-opacity-5 hover:bg-opacity-10'
                   }
                 `}
@@ -50,18 +50,18 @@ const Header = () => {
                 )}
               </Link>
             ))}
-            
+
             {/* Contact Button as Link */}
-            <Link 
+            <Link
               to="/contact"
               className="ml-4 px-6 py-3 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-bold rounded-full transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
               Contact
             </Link>
           </nav>
-          
+
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="lg:hidden text-white hover:text-emerald-400 transition-colors duration-300"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -72,7 +72,7 @@ const Header = () => {
             </div>
           </button>
         </div>
-        
+
         {/* Mobile Navigation Menu - Using Link */}
         {isMenuOpen && (
           <nav className="lg:hidden border-t border-white border-opacity-20 py-6 backdrop-blur-lg">
@@ -85,7 +85,7 @@ const Header = () => {
                   className={`
                     px-4 py-3 rounded-lg font-bold text-lg transition-all duration-300 text-left
                     ${isActivePath(item.path)
-                      ? 'bg-gradient-to-r from-emerald-500 to-cyan-500 text-white' 
+                      ? 'bg-gradient-to-r from-emerald-500 to-cyan-500 text-white'
                       : 'text-white hover:text-emerald-400 bg-white bg-opacity-5 hover:bg-opacity-10'
                     }
                   `}
@@ -94,7 +94,7 @@ const Header = () => {
                 </Link>
               ))}
               <div className="pt-2">
-                <Link 
+                <Link
                   to="/contact"
                   onClick={() => setIsMenuOpen(false)}
                   className="block w-full px-6 py-3 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white font-bold rounded-full text-center"
