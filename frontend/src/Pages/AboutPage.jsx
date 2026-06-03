@@ -79,68 +79,6 @@ const About = () => {
                 ))}
               </div>
             </div>
-            <div>
-              <h3 className="font-semibold text-white mb-2">Data Science</h3>
-              <div className="mb-2">
-                <div className="text-emerald-400 mb-1">Visualization:</div>
-                <div className="flex flex-wrap gap-2 mb-2">
-                  {technicalSkills.dataScience.visualization.map((v) => (
-                    <span
-                      key={v}
-                      className="bg-emerald-500/10 text-emerald-300 px-2 py-1 rounded-full text-xs"
-                    >
-                      {v}
-                    </span>
-                  ))}
-                </div>
-                <div className="text-emerald-400 mb-1">ML/DL:</div>
-                <div className="flex flex-wrap gap-2 mb-2">
-                  {technicalSkills.dataScience.mlDl.map((v) => (
-                    <span
-                      key={v}
-                      className="bg-emerald-500/10 text-emerald-300 px-2 py-1 rounded-full text-xs"
-                    >
-                      {v}
-                    </span>
-                  ))}
-                </div>
-                <div className="text-emerald-400 mb-1">NLP:</div>
-                <div className="flex flex-wrap gap-2 mb-2">
-                  {technicalSkills.dataScience.nlp.map((v) => (
-                    <span
-                      key={v}
-                      className="bg-emerald-500/10 text-emerald-300 px-2 py-1 rounded-full text-xs"
-                    >
-                      {v}
-                    </span>
-                  ))}
-                </div>
-                <div className="text-emerald-400 mb-1">Statistics:</div>
-                <div className="flex flex-wrap gap-2">
-                  {technicalSkills.dataScience.statistics.map((v) => (
-                    <span
-                      key={v}
-                      className="bg-emerald-500/10 text-emerald-300 px-2 py-1 rounded-full text-xs"
-                    >
-                      {v}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </div>
-            <div>
-              <h3 className="font-semibold text-white mb-2">MLOps</h3>
-              <div className="flex flex-wrap gap-2">
-                {technicalSkills.mlops.map((tool) => (
-                  <span
-                    key={tool}
-                    className="bg-emerald-600/10 text-emerald-300 px-2 py-1 rounded-full text-xs"
-                  >
-                    {tool}
-                  </span>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
         {/* Achievements Section */}

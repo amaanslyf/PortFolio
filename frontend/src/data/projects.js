@@ -175,17 +175,18 @@ export const technicalSkills = {
     "Git",
     "GitHub",
     "Authentication and Authorization",
+    "Docker",
+    "CI/CD"
   ],
-  dataScience: {
-    visualization: [],
-    mlDl: [],
-    nlp: [],
-    statistics: [],
-  },
-  mlops: [],
 };
 
 export const experience = [
+  {
+    title: "Software Developer Intern",
+    company: "Cloudinger Softech LLP",
+    period: "Dec 2025 - Present",
+    description: "Working as a Software Developer Intern on a real-world project using React.js, Node.js, and related technologies. Contributed to frontend, backend, core project design, architecture, and key technical decisions. Solved critical onboarding and workflow challenges for roles like machine owners and machine renters, improving usability, scalability, and overall platform efficiency.",
+  },
   {
     title: "Intern",
     company: "CodeNucleus",
@@ -198,7 +199,7 @@ export const education = [
   {
     degree: "B-Tech in CSE (AI)",
     institution: "Vishwakarma Institute of Technology, Pune",
-    cgpa: "8.83",
+    cgpa: "9.06",
     period: "2024 - 2027",
   },
   {
@@ -211,23 +212,43 @@ export const education = [
 
 export const achievements = [
   {
+    title: "Citi Bridge Training Program 2026",
+    description: "Selected among the top 100 students for the Citi Bridge Training Program.",
+    type: "achievement",
+  },
+  {
+    title: "IBM Full Stack Software Developer Professional Certificate",
+    description: "Completed the comprehensive multi-course program on Coursera covering frontend, backend, cloud development, and DevOps.",
+    type: "certification",
+  },
+  {
+    title: "Published Research Paper - Legal Ease: AI-Powered Legal Assistant",
+    description: "Published in SmartCom 2026 (Paper ID – 308): 'Legal Ease: AI-Powered Legal Assistant Using Multi-Agent Architecture'.",
+    type: "research",
+  },
+  {
     title: "Published Research Paper - Scrap Dealer Web Application",
     description: "Published in the International Journal of Advanced Research in Science, Communication and Technology (IJARSCT).",
     type: "research",
   },
   {
     title: "Published Research Paper - AI-Eye on Campus",
-    description: "Published in the International Journal of Innovative Research in Science, Engineering and Technology (IJIRSCET) on detecting smoking via CCTV.",
+    description: "Published in the International Journal of Innovative Research in Science, Engineering and Technology (IJIRSCET) on detecting smoking via CCTV-enabled Machine Learning.",
     type: "research",
   },
   {
-    title: "Registered Patent - Real-Time Crowd Insights",
-    description: "A system for real-time crowd insights and prediction of crowd in local transport.",
+    title: "Published Patent - Drone Detection and Alerting System",
+    description: "Patent published for a Drone Detection and Alerting System (Application No.: 202521098333).",
     type: "patent",
   },
   {
-    title: "Technical Competition Participant",
-    description: "Participated in TECH TITANS 2024, TECHNOTHON 2024, and the Prabal national-level hackathon (GDG).",
+    title: "Published Patent - Real-Time Crowd Insights",
+    description: "Patent published for a system enabling real-time crowd insights and crowd prediction in local transport (Application No.: 202521029894).",
+    type: "patent",
+  },
+  {
+    title: "Technical Competitions & Hackathons",
+    description: "Participated in FUSION 2025 (Top 25 Finalists), TECH TITANS 2024 (Intercollegiate Project Competition), TECHNOTHON 2024 (Startup Competition), and PRABAL National-Level Hackathon (recognized by Google Developer Groups).",
     type: "competition",
   },
 ];
