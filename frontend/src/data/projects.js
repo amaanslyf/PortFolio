@@ -1,5 +1,39 @@
 export const projectsData = [
   {
+    id: 7,
+    title: "JanSahyog : Smart Civic Issue Management Platform",
+    shortDescription: "A full-stack civic governance system enabling citizens to report geo-tagged issues and track resolution in real time.",
+    fullDescription: "Built a full-stack civic governance system with a React admin portal, React Native (Expo SDK 51) mobile app, Firebase (Auth, Firestore, Storage, Cloud Functions), and Material UI to enable citizens to report geo-tagged issues with photos and track resolution in real time. It provides officials with analytics dashboards, interactive maps, automated issue routing, and push notifications to streamline municipal workflows and improve transparency in governance.",
+    image: "/images/jansahyog-ui.png",
+    technologies: ["React", "React Native", "Expo SDK 51", "Firebase", "Material UI", "Cloud Functions", "Firestore"],
+    category: "web",
+    status: "in-progress",
+    featured: true,
+    links: {
+      live: null,
+      github: "https://github.com/amaanslyf/JanSahyog",
+    },
+    metrics: {},
+    date: "2026-04-26",
+  },
+  {
+    id: 8,
+    title: "SyncPad : Real-Time Collaborative Text Editor",
+    shortDescription: "A high-performance collaborative text editor achieving sub-50ms sync latency and conflict-free editing.",
+    fullDescription: "Developed a high-performance collaborative text editor using React, Node.js, and Yjs CRDTs, achieving <50ms sync latency and conflict-free editing. Engineered a custom WebSocket server with token-based authentication and a debounced MongoDB persistence strategy to optimize database performance and ensure zero-loss data integrity.",
+    image: "/images/syncpad-ui.png",
+    technologies: ["React", "Node.js", "Yjs", "CRDTs", "WebSockets", "MongoDB", "Express"],
+    category: "web",
+    status: "completed",
+    featured: true,
+    links: {
+      live: "https://syncpad-collaborative-editor.vercel.app/",
+      github: "https://github.com/amaanslyf/SyncPad---Collaborative-Text-Editor",
+    },
+    metrics: {},
+    date: "2026-04-26",
+  },
+  {
     id: 1,
     title: "CodeVault: Beginner-Friendly Version Control System",
     shortDescription: "A full-stack, Git-like version control system with a web dashboard and CLI.",
@@ -59,7 +93,7 @@ export const projectsData = [
     technologies: ["React", "Node", "Express", "MongoDB", "OpenAI API", "RESTful API", "Vercel"],
     category: "web",
     status: "completed",
-    featured: true,
+    featured: false,
     links: {
       live: "https://aisle-chi.vercel.app/",
       github: "https://github.com/amaanslyf/AISLE",
@@ -76,7 +110,7 @@ export const projectsData = [
     technologies: ["MERN", "React.js", "Node.js", "Express.js", "MongoDB", "RESTful APIs"],
     category: "web",
     status: "completed",
-    featured: true,
+    featured: false,
     links: {
       live: "https://wanderlust-6vlg.onrender.com/listings",
       github: "https://github.com/amaanslyf/Sigma-5.0-MERN/tree/main/MAJORPROJECT",
