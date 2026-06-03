@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Button from '../components/Button';
 import TypingEffect from '../components/TypingEffect'; // We are now using this component!
